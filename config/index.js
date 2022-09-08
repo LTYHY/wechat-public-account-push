@@ -52,7 +52,7 @@ export const config = {
       openUrl: "https://wangxinleo.cn"
     }, 
     {
-      name: "老婆2",
+      name: "亲亲抱抱宝贝~",
       id: "oKb8m6AbTee3eOD4ranXo-D9UvSk",
       useTemplateId: "nwUCzwe0KnqQ7Mj5HnT9oSzdUU7FAFPFVl3nutLD1-w",
       province: "山东",
