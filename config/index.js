@@ -33,9 +33,9 @@ export const config = {
       // 想要发送的人的名字
       name: "宝贝~",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oKb8m6BkTuHhr8FEoPHNsDCgCAoM",
+      id: "oKb8m6BkTuHhr8FEoPHNsDCgCAoM,oKb8m6AbTee3eOD4ranXo-D9UvSk",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "A6wH-E6n_S6k1E_NH81-zt5QnJT0UX5dgK8tYs420DU",
+      useTemplateId: "nwUCzwe0KnqQ7Mj5HnT9oSzdUU7FAFPFVl3nutLD1-w",
       // 所在省份
       province: "山东",
       // 所在城市
@@ -46,25 +46,17 @@ export const config = {
     {
       name: "自己", 
       id: "oKb8m6BkTuHhr8FEoPHNsDCgCAoM",
-      useTemplateId: "A6wH-E6n_S6k1E_NH81-zt5QnJT0UX5dgK8tYs420DU",
+      useTemplateId: "nwUCzwe0KnqQ7Mj5HnT9oSzdUU7FAFPFVl3nutLD1-w",
       province: "山东",
       city: "青岛",
       openUrl: "https://wangxinleo.cn"
     }, 
     {
       name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      openUrl: "https://wangxinleo.cn"
-    }, 
-    {
-      name: "老婆3", 
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      id: "oKb8m6AbTee3eOD4ranXo-D9UvSk",
+      useTemplateId: "nwUCzwe0KnqQ7Mj5HnT9oSzdUU7FAFPFVl3nutLD1-w",
+      province: "山东",
+      city: "青岛",
       openUrl: "https://wangxinleo.cn"
     }, 
   ],
@@ -74,7 +66,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "A6wH-E6n_S6k1E_NH81-zt5QnJT0UX5dgK8tYs420DU",
+  CALLBACK_TEMPLATE_ID: "nwUCzwe0KnqQ7Mj5HnT9oSzdUU7FAFPFVl3nutLD1-w",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -118,20 +110,7 @@ export const config = {
    * 如果为0, 则默认展示全部
    */
   FESTIVALS_LIMIT: 4,
-
-  /** 日期相关 */
-
-  /** 你现在可以随心增加你认为的所有的需要纪念的日子啦！
-    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
-    * 比如：keyword: "love_date" ，在测试号中就是 {{ love_date.DATA }} 
-    * */
-  CUSTOMIZED_DATE_LIST: [
-    // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
-
-    // ... 
-  ],
-
+  
   /** 插槽 */
 
   /** 你可以在这里写超多的你想显示的内容了！
