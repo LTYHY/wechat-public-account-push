@@ -108,7 +108,7 @@ export const config = {
   FESTIVALS: [
     {"type": "生日", "name": "宝贝", "year": "2000", "date": "05-13"},
     {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "03-30"},
-    {"type": "生日", "name": "李同", "year": "1999", "date": "04-07"},
+    {"type": "生日", "name": "宝贝男朋友", "year": "1999", "date": "04-07"},
     {"type": "节日", "name": "相识纪念日", "year": "2019", "date": "09-16"},
   ],
 
